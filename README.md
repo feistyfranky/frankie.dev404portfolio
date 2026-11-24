@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frank Kodi — Software Engineer Portfolio
 
-## Getting Started
+Personal developer portfolio for **Frank Kodi** ([@feistyfranky](https://github.com/feistyfranky)), Software Engineer based in Takoradi, Ghana. Built with **Next.js 16**, **TypeScript**, **Tailwind CSS**, and **Motion**.
 
-First, run the development server:
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router + Turbopack)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Motion](https://motion.dev/) (formerly Framer Motion)
+- **Icons**: [Lucide React](https://lucide.dev/) + Clean inline SVG brand icons
+
+---
+
+## ✨ Features & Structure
+
+1. **Clean & Approachable Hero**:
+   - Clear, jargon-free value proposition: *"Building clean, fast, and reliable web applications that deliver real results."*
+   - Real-world highlight metrics: 5+ Years Experience, 25+ Completed Projects, 100% Client Focused, < 24h Response Time.
+   - One-click copy email button and direct action buttons.
+
+2. **About Me & Working Principles**:
+   - Plain-English communication commitment (no confusing developer jargon).
+   - Mobile & user-first design focus.
+   - High-quality, reliable, and scalable engineering.
+
+3. **Services & Capabilities**:
+   - Frontend & Web Design (fast, responsive, intuitive UI/UX).
+   - Backend & Databases (secure user logins, APIs, database setup, Stripe integration).
+   - Complete Product Delivery (deployment, hosting, maintenance).
+
+4. **Featured Projects (Real-World Impact)**:
+   - Clear cards focused on the problem, solution, real business impact, and key features.
+   - Direct links to live previews and source code repositories.
+
+5. **Career Track Record**:
+   - Resume-style chronological timeline of work experience highlighting tangible achievements.
+   - Education and degree background.
+
+6. **Direct Contact Section**:
+   - Simple message form with immediate feedback.
+   - Direct email with one-click copy.
+   - Social links (GitHub, LinkedIn, Twitter/X).
+
+---
+
+## 🚀 How to Run Locally
 
 ```bash
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
+
+```bash
+# Build for production
+npm run build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ How to Customize Your Information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All content is managed in a single, well-organized file:
 
-## Learn More
+📁 **[`src/data/portfolio.ts`](file:///c:/Users/USER/OneDrive/Desktop/pfwebsite/src/data/portfolio.ts)**
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can quickly personalize:
+- Your name, role, email, and location
+- Your bio and "About Me" paragraphs
+- Your projects, descriptions, impact statements, and links
+- Your work experience, achievements, and education
