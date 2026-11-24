@@ -106,6 +106,27 @@ export const PORTFOLIO_DATA = {
       }
     },
     {
+      id: "duchess-autocare",
+      title: "Duchesse Autocare",
+      category: "web",
+      categoryLabel: "Automotive E-Commerce",
+      badge: "Live Storefront",
+      tagline: "E-commerce platform for automotive parts, maintenance, and car care products.",
+      description: "Duchesse Autocare is an e-commerce platform designed for automotive parts and car care products. The site features a user-friendly layout with a 'Daily Essentials' section, showcasing products like motor oils, filters, and batteries in well-organized, consistent cards.",
+      impact: "Provides vehicle owners and mechanics with a streamlined shopping experience to browse, compare, and order verified automotive essentials online.",
+      features: [
+        "Curated 'Daily Essentials' catalog with structured cards for motor oils, filters, and batteries",
+        "Mobile-first responsive storefront engineered for intuitive product discovery",
+        "Modern SPA architecture powered by an API-driven backend with secure product checkout"
+      ],
+      tags: ["SPA Architecture", "Vue.js / Vite", "REST APIs", "Responsive E-Commerce", "UI/UX Design"],
+      image: "/duchessautocare-preview.png",
+      logo: "/duchessautocare-logo.jpg",
+      links: {
+        demo: "https://duchessautocare.com/"
+      }
+    },
+    {
       id: "workspace-hub",
       title: "FlowDesk — Team Collaboration Suite",
       category: "fullstack",
