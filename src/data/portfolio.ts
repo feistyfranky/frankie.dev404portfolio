@@ -120,7 +120,7 @@ export const PORTFOLIO_DATA = {
         "Modern SPA architecture powered by an API-driven backend with secure product checkout"
       ],
       tags: ["SPA Architecture", "Vue.js / Vite", "REST APIs", "Responsive E-Commerce", "UI/UX Design"],
-      image: "/duchessautocare-preview.png",
+      image: "/duchess-storefront.png",
       logo: "/duchessautocare-logo.jpg",
       links: {
         demo: "https://duchessautocare.com/"
