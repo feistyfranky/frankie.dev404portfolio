@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ExternalLink, CheckCircle2 } from "lucide-react";
 import { PORTFOLIO_DATA } from "@/data/portfolio";
@@ -43,6 +44,18 @@ export default function ProjectsSection() {
                     {project.badge}
                   </span>
                 </div>
+
+                {/* Project Image Preview */}
+                {project.image && (
+                  <div className="relative w-full h-44 mb-4 rounded-[4px] overflow-hidden border border-[#E8EEF2]/10 bg-[#000412]">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover group-hover:scale-[1.03] transition-transform duration-500 opacity-90 group-hover:opacity-100"
+                    />
+                  </div>
+                )}
 
                 {/* Title & Description */}
                 <h3 className="text-xl font-bold text-white group-hover:text-accent transition-colors mb-2">

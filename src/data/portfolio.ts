@@ -9,6 +9,8 @@ export interface Project {
   impact: string;
   features: string[];
   tags: string[];
+  image?: string;
+  logo?: string;
   links: {
     demo?: string;
     github?: string;
@@ -82,6 +84,27 @@ export const PORTFOLIO_DATA = {
   },
 
   projects: [
+    {
+      id: "brightstart",
+      title: "The Bright Start Project",
+      category: "web",
+      categoryLabel: "Education & STEM Platform",
+      badge: "Live Initiative",
+      tagline: "Revolutionizing public education through STEM, teacher training, and infrastructure.",
+      description: "The Bright Start Project is an initiative aimed at revolutionizing public education through STEM education, teacher training, and infrastructure development across coastal districts in Ghana. Built to connect schools, educators, and industrial partners with modern learning resources.",
+      impact: "Powering STEM curriculum outreach, digital school profiles, and student success metrics across coastal district schools.",
+      features: [
+        "Interactive directory and profile tracking for all covered coastal districts",
+        "STEM curriculum showcases, teacher training modules, and portal authentication",
+        "Ecosystem resource management supporting public education and student success"
+      ],
+      tags: ["Web Architecture", "Responsive Design", "UI/UX", "Interactive Maps", "REST APIs", "Educational Tech"],
+      image: "/brightstart-hero.png",
+      logo: "/brightstart-logo.png",
+      links: {
+        demo: "https://stccijubileebrightstart.org/"
+      }
+    },
     {
       id: "workspace-hub",
       title: "FlowDesk — Team Collaboration Suite",
