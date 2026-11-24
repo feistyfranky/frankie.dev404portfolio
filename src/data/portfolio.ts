@@ -127,6 +127,27 @@ export const PORTFOLIO_DATA = {
       }
     },
     {
+      id: "tertiary-scholars-aid",
+      title: "Tertiary Scholars' Aid (TSA)",
+      category: "fullstack",
+      categoryLabel: "Scholarship & Education Portal",
+      badge: "Live Platform",
+      tagline: "Empowering higher education access across 115+ coastal fishing communities in Ghana.",
+      description: "The Tertiary Scholars' Aid (TSA) Project is a Corporate Social Responsibility (CSR) initiative by the Jubilee and TEN Joint Venture Partners (Tullow Oil, Kosmos Energy, PetroSA, GNPC) implemented by STCCI. The platform provides financial and psychosocial support to academically deserving but disadvantaged Senior High School graduates from over 115 coastal fishing communities to pursue degrees, TVET, nursing, and teacher training.",
+      impact: "Eliminates educational barriers for coastal youth, managing 100% annual tuition aid, laptop distributions, semester accommodation, and living stipends.",
+      features: [
+        "Online scholarship application portal for applicant screening and automated verification",
+        "Dedicated student management dashboard for disbursements, academic tracking, and mentorship",
+        "Multi-stakeholder CSR reporting suite for joint venture partners and STCCI administrators"
+      ],
+      tags: ["Fullstack Architecture", "Vercel", "REST APIs", "Student Portal", "Role-Based Auth", "CSR Logistics"],
+      image: "/tsa-hero.jpg",
+      logo: "/tsa-logo.png",
+      links: {
+        demo: "https://www.tertiaryscholarsaid.org/"
+      }
+    },
+    {
       id: "workspace-hub",
       title: "FlowDesk — Team Collaboration Suite",
       category: "fullstack",
